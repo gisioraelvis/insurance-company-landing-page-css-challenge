@@ -1,0 +1,459 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap");
+
+:root {
+  --blue: #25a5f0;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #d63384;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #198754;
+  --teal: #20c997;
+  --cyan: #0dcaf0;
+  --light: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #25a5f0;
+  --secondary: #6c757d;
+  --success: #198754;
+  --info: #0dcaf0;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #212529;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.hero-section {
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/images/hero-cover.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 100px;
+  padding: 30px 0;
+}
+
+.logo-nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--light);
+  margin-right: 50px;
+}
+
+.nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.nav-links {
+  margin-right: 50px;
+}
+
+.nav-links ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-links li {
+  margin: 0 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--light);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: var(--blue);
+}
+
+.sign-in-up-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sign-in-btn button {
+  background: none;
+  border: none;
+  color: var(--light);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.sign-up-btn button {
+  background: var(--primary);
+  border: none;
+  color: var(--light);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button .arrow-forward-icon {
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.hero-section {
+  position: relative;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--light);
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hero-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.get-quote button {
+  background: var(--primary);
+  border: none;
+  border-radius: 20px;
+  color: var(--light);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.learn-more button {
+  background: none;
+  border: 2px solid var(--light);
+  border-radius: 20px;
+  color: var(--light);
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-left: 20px;
+}
+
+/* Half of the cards div should be over the hero */
+.assurance-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 0 100px; */
+}
+
+.card {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--light);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  margin: 30px;
+}
+
+.card:first-child {
+  margin-left: 150px;
+}
+
+.card:last-child {
+  margin-right: 150px;
+}
+
+.card .people-icon {
+  font-size: 2rem;
+  color: var(--primary);
+  margin-bottom: 0;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card-3 {
+  background: var(--primary);
+  color: var(--light);
+}
+
+.card-3 .people-icon {
+  color: var(--light);
+}
+
+.assurances {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.assurance {
+  text-align: center;
+}
+
+.assurance:first-child {
+  margin-left: 100px;
+}
+
+.assurance:last-child {
+  margin-right: 100px;
+}
+
+.assurance .assurance-icon {
+  font-size: 2rem;
+  color: var(--primary);
+  margin-bottom: 0;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+
+.testimonials-header {
+  text-align: center;
+  width: 50%;
+  padding: 50px;
+}
+
+.testimonal-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 100px;
+}
+
+.testimonial-card {
+  background: white;
+  border: rgba(0, 0, 0, 0.445) 1px solid;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.user-img img {
+  width: 100px;
+  height: 100px;
+}
+
+.testimonal-cards .rating-stars {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gold;
+}
+
+.partners {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.partner img {
+  width: 50%;
+  height: 50%;
+}
+
+.partner:first-child {
+  margin-left: 90px;
+}
+
+.partner:last-child {
+  margin-right: 90px;
+}
+
+.news-letter-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, var(--blue), var(--pink));
+  padding: 50px;
+  margin: 0 100px 100px 100px;
+  border-radius: 5px;
+}
+
+.news-letter-heading h2 {
+  color: white;
+}
+
+.news-letter-form {
+  background-color: white;
+  border: solid 1px var(--light);
+  border-radius: 5px;
+}
+.news-letter-form input {
+  border: solid 1px var(--light);
+  border-radius: 5px 0 0 5px;
+  padding: 10px 0 10px 20px;
+}
+
+.news-letter-form button {
+  background: var(--primary);
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: var(--light);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.pricing {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 100px;
+}
+
+.pricing-card {
+  background: white;
+  border: var(--blue) 1px solid;
+  border-radius: 5px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+/* slightly taller than the others but on the top only */
+.pricing-card-2 {
+  margin-top: -30px;
+  padding-bottom: 40px;
+  background-color: var(--dark);
+  color: white;
+}
+
+.pricing-card-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price h3 {
+  font-size: 30px;
+  color: var(--blue);
+  padding: 2px;
+}
+
+.pricing-card-price-icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.pricing-card-price-icon .logo-usd-icon {
+  color: var(--blue);
+  font-size: 1rem;
+}
+
+.pricing-card-body-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.pricing-card-body-item-icon {
+  margin-right: 5px;
+}
+
+.pricing-card-body-item-icon .checkmark-circle-icon {
+  color: var(--green);
+  font-size: 20px;
+}
+
+.pricing-card-btn button {
+  background: var(--blue);
+  border: none;
+  border-radius: 5px;
+  color: var(--light);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 50px;
+  cursor: pointer;
+}
+
+.global-locations {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: var(--gray-dark);
+  height: 60vh;
+}
+
+.global-locations-header {
+  width: 80%;
+  color: white;
+  margin-left: 100px;
+}
+
+.global-map img {
+  width: 80%;
+  height: 80%;
+  margin-right: 100px;
+}
+
+.footer {
+  padding: 10px;
+}
