@@ -9,7 +9,7 @@
     <title>Insurance Company Landing Page</title>
 </head>
 
-<di>
+<body>
     <div class="hero-section">
         <div class="header">
             <div class="logo-nav-links">
@@ -66,7 +66,7 @@
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
         </div>
     </div>
-    <div class="main">
+    <div class="assurances-section">
         <div class="assurances">
             <div class="assurance assurance-1">
                 <ion-icon name="albums-outline" class="assurance-icon"></ion-icon>
@@ -366,192 +366,202 @@
     </div>
     <div class="book-appointment">
         <div class="appointment-form">
-            <div class="book-appointment-img">
+            <div class="appointment-img">
                 <img src="/images/contact.png" alt="Doctor">
             </div>
             <div class="appointment-form-fields">
                 <div class="appointment-form-fields-header">
                     <h2>Book an Appointment</h2>
                 </div>
-                <div class="appointment-form-fields-body">
-                    <div class="appointment-form-fields-body-item">
-                        <label for="name">Name</label>
-                        <input type="text" placeholder="Name" name="name" required>
+                <div class="appointment-form-fields-input">
+                    <div class="appointment-form-fields-input-item">
+                        <div class="appointment-form-fields-input-item-label">
+                            <label for="name">Name</label>
+                        </div>
+                        <div class="appointment-form-fields-input-item-input">
+                            <input type="text" name="name" id="name" placeholder="Enter your name">
+                        </div>
                     </div>
-                    <div class="appointment-form-fields-body-item">
-                        <label for="email">Email</label>
-                        <input type="email" placeholder="Email Adress" name="email" required>
+                    <div class="appointment-form-fields-input-item">
+                        <div class="appointment-form-fields-input-item-label">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="appointment-form-fields-input-item-input">
+                            <input type="email" name="email" id="email" placeholder="Enter your email">
+                        </div>
                     </div>
-                    <div class="appointment-form-fields-body-item">
-                        <div>
-                            <div>
-                                <label for="department">Department</label>
-                            </div>
-                            <select name="department" id="department" name="department" required>
-                                <option value="department">Department</option>
-                                <option value="department">Department</option>
-                                <option value="department">Department</option>
-                                <option value="department">Department</option>
-                                <option value="department">Department</option>
+                    <div class="appointment-form-fields-input-item">
+                        <div class="appointment-form-fields-input-item-label">
+                            <label for="department">Department</label>
+                        </div>
+                        <div class="appointment-form-fields-input-item-input">
+                            <select name="department" id="department">
+                                <option value="insurance">Insurance</option>
+                                <option value="life-insurance">Life Insurance</option>
+                                <option value="health-insurance">Health Insurance</option>
+                                <option value="auto-insurance">Auto Insurance</option>
+                                <option value="home-insurance">Home Insurance</option>
+                                <option value="business-insurance">Business Insurance</option>
+                                <option value="travel-insurance">Travel Insurance</option>
+                                <option value="pet-insurance">Pet Insurance</option>
                             </select>
                         </div>
                     </div>
-                    <div class="appointment-form-fields-body-item">
-                        <label for="time">Time</label>
-                        <input type="time" placeholder="Time" name="time" required>
+                    <div class="appointment-form-fields-input-item">
+                        <div class="appointment-form-fields-input-item-label">
+                            <label for="time">Time</label>
+                        </div>
+                        <div class="appointment-form-fields-input-item-input">
+                            <input type="time" name="time" id="time">
+                        </div>
                     </div>
-                </div>
-                <div class="appointment-form-fields-btn">
-                    <button>Book Appointment Now</button>
-                </div>
-            </div>
-        </div>
-    </div>
-</di>
-<div class="contact-us">
-    <div class="contact-us-header">
-        <div>
-            <h2>Consulting Agency For Your Bussines</h2>
-        </div>
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Totam quae sint corporis, itaque officia soluta quos cumque nisi dolores eum, ab vel voluptates.
-                Molestias, distinctio quam consequatur assumenda vero reprehenderit.</p>
-        </div>
-    </div>
-    <div class="contact-us-btn">
-        <button>Contact Us</button>
-    </div>
-</div>
-<footer>
-    <div class="footer-container">
-        <div class="footer-container-item">
-            <div class="footer-container-item-header">
-                <h2>Company</h2>
-            </div>
-            <div class="footer-container-item-body">
-                <div class="footer-container-item-body-item">
-                    <a href="#">About Us</a>
-                </div>
-                <div class="footer-container-item-body-item">
-                    <a href="#">Blog</a>
-                </div>
-                <div class="footer-container-item-body-item">
-                    <a href="#">Careers</a>
-                </div>
-                <div class="footer-container-item-body-item">
-                    <a href="#">Contact Us</a>
-                </div>
-                <div class="footer-container-item-body-item">
-                    <a href="#">Terms of Service</a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-container-item">
-            <div class="footer-container-item-header">
-                <h2>Legal</h2>
-            </div>
-            <div class="footer-container-item-body">
-                <div class="footer-container-item-body-item">
-                    <a href="#">Privacy Policy</a>
-                </div>
-                <div class="footer-container-item-body-item">
-                    <a href="#">Terms of Use</a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-container-item">
-            <div class="footer-container-item-header">
-                <h2>Features</h2>
-            </div>
-            <div class="footer-container-item-body">
-                <div class="footer-container-item-body-item">
-                    <a href="#">Link Shortening</a>
-                </div>
-                <div class="footer-container-item-body-item">
-                    <a href="#">Branded Links</a>
-                </div>
-                <div class="footer-container-item-body-item">
-                    <a href="#">Analytics</a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-container-item">
-            <div class="footer-container-item-header">
-                <h2>Resources</h2>
-            </div>
-            <div class="footer-container-item-body">
-                <div class="footer-container-item-body-item">
-                    <a href="#">Blog</a>
-                </div>
-                <div class="footer-container-item-body-item">
-                    <a href="#">Developers</a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-container-item">
-            <div class="footer-container-item-header">
-                <h2>Get In Touch</h2>
-            </div>
-            <div class="footer-container-item-body">
-                <div class="footer-container-item-body-item">
-                    <div class="icon">
-                        <ion-icon name="call-outline"></ion-icon>
-                    </div>
-                    <div>
-                        <a href="#">Contact</a>
-                    </div>
-                </div>
-                <div class="footer-container-item-body-item">
-                    <div class="icon">
-                        <ion-icon name="mail-outline"></ion-icon>
-                    </div>
-                    <div>
-                        <a href="#">Mail</a>
-                    </div>
-                </div>
-                <div class="footer-container-item-body-item">
-                    <div class="icon">
-                        <ion-icon name="location-outline"></ion-icon>
-                    </div>
-                    <div>
-                        <a href="#">Location</a>
+                    <div class="appointment-form-fields-btn">
+                        <button>Book Appointment Now</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="bottom-footer">
-        <div class="attribution">Made with love By:
-            <a href="https://github.com/gisioraelvis">Gisiora Elvis</a>
+    <div class="contact-us">
+        <div class="contact-us-header">
+            <div>
+                <h2>Consulting Agency For Your Bussines</h2>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
         </div>
-        <div class="socials">
-            <div class="socials-item">
-                <a href="#" class="social-item">
-                    <ion-icon name="logo-facebook" class="icon"></ion-icon>
-                </a>
-            </div>
-            <div class="socials-item">
-                <a href="#" class="social-item">
-                    <ion-icon name="logo-twitter" class="icon"></ion-icon>
-                </a>
-            </div>
-            <div class="socials-item">
-                <a href="#" class="social-item">
-                    <ion-icon name="logo-instagram" class="icon"></ion-icon>
-                </a>
-            </div>
-            <div class="socials-item">
-                <a href="#" class="social-item">
-                    <ion-icon name="logo-linkedin" class="icon"></ion-icon>
-                </a>
-            </div>
+        <div class="contact-us-btn">
+            <button>Contact Us</button>
         </div>
     </div>
-</footer>
-
+    <footer>
+        <div class="footer-container">
+            <div class="footer-container-item">
+                <div class="footer-container-item-header">
+                    <h2>Company</h2>
+                </div>
+                <div class="footer-container-item-body">
+                    <div class="footer-container-item-body-item">
+                        <a href="#">About Us</a>
+                    </div>
+                    <div class="footer-container-item-body-item">
+                        <a href="#">Blog</a>
+                    </div>
+                    <div class="footer-container-item-body-item">
+                        <a href="#">Careers</a>
+                    </div>
+                    <div class="footer-container-item-body-item">
+                        <a href="#">Contact Us</a>
+                    </div>
+                    <div class="footer-container-item-body-item">
+                        <a href="#">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-container-item">
+                <div class="footer-container-item-header">
+                    <h2>Legal</h2>
+                </div>
+                <div class="footer-container-item-body">
+                    <div class="footer-container-item-body-item">
+                        <a href="#">Privacy Policy</a>
+                    </div>
+                    <div class="footer-container-item-body-item">
+                        <a href="#">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-container-item">
+                <div class="footer-container-item-header">
+                    <h2>Features</h2>
+                </div>
+                <div class="footer-container-item-body">
+                    <div class="footer-container-item-body-item">
+                        <a href="#">Link Shortening</a>
+                    </div>
+                    <div class="footer-container-item-body-item">
+                        <a href="#">Branded Links</a>
+                    </div>
+                    <div class="footer-container-item-body-item">
+                        <a href="#">Analytics</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-container-item">
+                <div class="footer-container-item-header">
+                    <h2>Resources</h2>
+                </div>
+                <div class="footer-container-item-body">
+                    <div class="footer-container-item-body-item">
+                        <a href="#">Blog</a>
+                    </div>
+                    <div class="footer-container-item-body-item">
+                        <a href="#">Developers</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-container-item">
+                <div class="footer-container-item-header">
+                    <h2>Get In Touch</h2>
+                </div>
+                <div class="footer-container-item-body">
+                    <div class="footer-container-item-body-item">
+                        <div class="icon">
+                            <ion-icon name="call-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <a href="#">Contact</a>
+                        </div>
+                    </div>
+                    <div class="footer-container-item-body-item">
+                        <div class="icon">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <a href="#">Mail</a>
+                        </div>
+                    </div>
+                    <div class="footer-container-item-body-item">
+                        <div class="icon">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <a href="#">Location</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <div class="attribution">Made with love By:
+                <a href="https://github.com/gisioraelvis">Gisiora Elvis</a>
+            </div>
+            <div class="socials">
+                <div class="socials-item">
+                    <a href="#" class="social-item">
+                        <ion-icon name="logo-facebook" class="icon"></ion-icon>
+                    </a>
+                </div>
+                <div class="socials-item">
+                    <a href="#" class="social-item">
+                        <ion-icon name="logo-twitter" class="icon"></ion-icon>
+                    </a>
+                </div>
+                <div class="socials-item">
+                    <a href="#" class="social-item">
+                        <ion-icon name="logo-instagram" class="icon"></ion-icon>
+                    </a>
+                </div>
+                <div class="socials-item">
+                    <a href="#" class="social-item">
+                        <ion-icon name="logo-linkedin" class="icon"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
-
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
