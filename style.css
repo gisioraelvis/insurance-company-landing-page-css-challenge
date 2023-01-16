@@ -374,7 +374,6 @@ button .arrow-forward-icon {
   text-align: center;
 }
 
-/* slightly taller than the others but on the top only */
 .pricing-card-2 {
   margin-top: -30px;
   padding-bottom: 40px;
@@ -437,7 +436,7 @@ button .arrow-forward-icon {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px;
+  padding: 30px 70px 200px 70px;
   background-color: var(--gray-dark);
   height: 60vh;
 }
@@ -445,6 +444,7 @@ button .arrow-forward-icon {
 .global-locations-header {
   width: 80%;
   color: white;
+  padding: 50px;
   margin-left: 100px;
 }
 
@@ -454,6 +454,146 @@ button .arrow-forward-icon {
   margin-right: 100px;
 }
 
-.footer {
+.book-appointment {
+  position: relative;
+}
+
+.appointment-form {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin: 0 300px;
+  background-color: white;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Fit image within containing div */
+.book-appointment-img img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.appointment-form-fields {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.appointment-form-fields-header h2 {
+  text-align: center;
   padding: 10px;
+}
+
+.appointment-form-fields-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.appointment-form-fields-body-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.appointment-form-fields-body-item input {
+  border: solid 1px black;
+  border-radius: 5px;
+  padding: 10px 0 10px 20px;
+}
+
+.appointment-form-fields-body-item > label {
+  padding-bottom: 5px;
+  text-align: start;
+}
+
+.contact-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
+}
+
+.contact-us-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding: 50px;
+}
+
+.contact-us-btn button {
+  width: 100%;
+  background: var(--blue);
+  border: none;
+  border-radius: 5px;
+  color: var(--light);
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 10px 50px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: white;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px 200px;
+}
+
+.footer-container-item-body-item a {
+  color: var(--gray);
+  text-decoration: none;
+}
+
+.footer-container-item-body .footer-container-item-body-item {
+  display: flex;
+  align-items: center;
+}
+
+.footer-container-item-body-item .icon {
+  margin-right: 10px;
+  font-size: 1.5rem;
+  color: var(--blue);
+}
+
+footer .bottom-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 200px;
+  background-color: var(--light);
+}
+
+.attribution a {
+  color: var(--gray);
+  text-decoration: none;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+}
+
+.socials-item {
+  margin: 0 10px;
+}
+
+.social-item .icon {
+  font-size: 1.5rem;
+  color: var(--blue);
 }
