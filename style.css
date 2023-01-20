@@ -685,15 +685,16 @@ footer .bottom-footer {
   .assurance:last-child {
     margin: 0;
   }
-  /* Horizontaly scroll the testimonials */
+
   .testimonal-cards {
-    overflow-x: scroll;
-    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .testimonial-card {
     padding: 5px;
-    margin: 0 10px;
+    margin: 10px 0;
   }
 
   /* Horizontaly scroll the partners */
@@ -739,15 +740,20 @@ footer .bottom-footer {
   .news-letter-form button {
     width: 40%;
   }
-  /* Horizontaly scroll the price cards */
+
   .pricing-cards {
-    overflow-x: scroll;
-    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
   }
 
-  /* .pricing-card-2 {
+  .pricing-card {
+    margin-bottom: 10px;
+  }
+
+  .pricing-card-2 {
     margin-top: 0;
-    padding-bottom: 0;
   }
 
   .pricing-card:first-child {
@@ -757,11 +763,11 @@ footer .bottom-footer {
   .pricing-card:last-child {
     margin-right: 0;
   }
-*/
+
   .pricing-card-btn button {
     font-size: 0.8rem;
     font-weight: 250;
-    /* padding: 8px 10px; */
+    padding: 8px 10px;
     border-radius: 5px;
   }
 
@@ -807,7 +813,6 @@ footer .bottom-footer {
   }
 
   .appointment-form-header {
-    /* padding: 10px; */
     margin: 0;
   }
 
@@ -847,7 +852,8 @@ footer .bottom-footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5px 15px;
+    margin: 5px;
+    padding: 0;
   }
 
   .contact-us-header {
@@ -863,7 +869,7 @@ footer .bottom-footer {
 
   .footer-container {
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     padding: 20px 0;
   }
